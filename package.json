@@ -16,5 +16,11 @@
   },
   "scripts": {
     "start": "cds-serve"
+  },
+  "cds": {
+    "cov2ap": {
+      "version": "v4",
+      "path": "devchallenge/v2"
+    }
   }
 }
