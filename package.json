@@ -7,6 +7,7 @@
   "private": true,
   "dependencies": {
     "@cap-js-community/odata-v2-adapter": "^1.12.5",
+    "@cap-js/graphql": "^0.10.0",
     "@sap/cds": "^7",
     "express": "^4"
   },
@@ -21,6 +22,12 @@
     "cov2ap": {
       "version": "v4",
       "path": "devchallenge/v2"
+    }
+  },
+  "protocols": {
+    "graphql": {
+      "path": "/graphql",
+      "impl": "@cap-js/graphql"
     }
   }
 }
